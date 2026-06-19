@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7fbff" />
+  <title>Tarun Rana Design Studio | Creative Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow"></div>
+  <div class="loader" id="loader"><img src="assets/tr-logo-transparent.png" alt="TR"><span>Tarun Rana Design Studio</span></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Tarun Rana Home">
+      <img class="brand-logo" src="assets/tr-logo-transparent.png" alt="TR logo" />
+      <span class="brand-text"><strong>Tarun Rana</strong><small>Design Studio</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#services">Services</a>
+      <a href="#work">My Work</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+    <a class="talk-btn magnetic" href="https://wa.me/918191948181?text=Hi%20Tarun%2C%20I%20want%20to%20discuss%20a%20project." target="_blank">Let’s Talk</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Hello, I’m</p>
+        <h1>Tarun <span>Rana</span></h1>
+        <h2>Creative Designer • Website Developer • Social Media Manager</h2>
+        <p class="hero-text">Helping businesses grow through branding, websites, social media handling, and marketing creatives.</p>
+        <div class="cta-row">
+          <a class="btn primary magnetic" href="#contact">Get a Free Consultation</a>
+          <a class="btn whatsapp magnetic" href="https://wa.me/918191948181?text=Hi%20Tarun%2C%20I%20want%20to%20discuss%20a%20project." target="_blank">Chat on WhatsApp</a>
+          <a class="btn ghost magnetic" href="#work">View My Work</a>
+          <a class="btn gold magnetic" href="#contact">Start Your Project</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-1" data-tilt>
+        <div class="hero-orbit"></div>
+        <div class="spark s1">✦</div><div class="spark s2">✧</div><div class="spark s3">✦</div>
+        <img class="sticker-main" src="assets/tarun-sticker.png" alt="Tarun Rana cartoon sticker" />
+        <div class="floating-badge badge-1">Branding ✦</div>
+        <div class="floating-badge badge-2">Websites ✦</div>
+        <div class="experience-card"><strong class="counter" data-target="5">0</strong><span>Years of<br>Experience</span></div>
+      </div>
+    </section>
+
+    <section class="stats reveal">
+      <div><strong class="counter" data-target="5">0</strong><span>Years Experience</span></div>
+      <div><strong class="counter" data-target="50">0</strong><span>Happy Clients</span></div>
+      <div><strong class="counter" data-target="100">0</strong><span>Projects Completed</span></div>
+      <div><strong class="counter" data-target="6">0</strong><span>Creative Services</span></div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-head reveal"><p class="eyebrow">What I do</p><h2>Services I Provide</h2></div>
+      <div class="service-grid">
+        <article class="service-card reveal" data-tilt><span>✒</span><h3>Branding Design</h3><ul><li>Logo Design</li><li>Brand Color & Font Selection</li><li>Visiting Card Design</li><li>Business Profile Design</li></ul></article>
+        <article class="service-card reveal" data-tilt><span>📱</span><h3>Social Media Design & Handling</h3><ul><li>Instagram Post Design</li><li>Reel Cover Design</li><li>Story Design</li><li>Festival Posters</li><li>Instagram Handling</li><li>Content Planning</li></ul></article>
+        <article class="service-card reveal" data-tilt><span>📦</span><h3>Product & Packaging Design</h3><ul><li>Product Label Design</li><li>Packaging Design</li><li>Sticker Design</li><li>Product Catalogue</li><li>Product Image Editing</li><li>E-commerce Listing Images</li></ul></article>
+        <article class="service-card reveal" data-tilt><span>💻</span><h3>Website & Online Setup</h3><ul><li>Business Website</li><li>Landing Page</li><li>Portfolio Website</li><li>Product Selling Website</li><li>WhatsApp Integration</li><li>Contact Form Setup</li></ul></article>
+        <article class="service-card reveal" data-tilt><span>📣</span><h3>Marketing Support</h3><ul><li>Ad Creatives</li><li>Offer Posters</li><li>Google Form Setup</li><li>Bio Optimization</li><li>Basic Caption Writing</li></ul></article>
+        <article class="service-card reveal" data-tilt><span>🎬</span><h3>Video & Reels</h3><ul><li>Product Reels</li><li>Promotional Videos</li><li>Motion Posters</li><li>Reel Editing</li><li>Text Animation Videos</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-head split reveal"><div><p class="eyebrow">My Work</p><h2>Project Folders</h2></div><a href="#contact">Need similar design? →</a></div>
+      <p class="work-note reveal">Click any folder to open full project gallery with all related designs.</p>
+      <div class="work-tabs reveal" role="tablist">
+        <button class="active" data-filter="all">All</button><button data-filter="website">Websites</button><button data-filter="poster">Posters</button><button data-filter="logo">Logo & Branding</button><button data-filter="packaging">Packaging</button><button data-filter="social">Social Media</button>
+      </div>
+      <div class="project-grid folder-grid">
+        <article class="project-card reveal" data-folder="Lady Luck" data-category="website social poster packaging logo" data-tilt><img src="assets/projects/lady-luck-01.png" alt="Lady Luck Boutique project"><div><span class="folder-tag">Full Project</span><h3>Lady Luck Boutique</h3><p>Logo • Social Media • Packaging • Website</p><button class="open-folder">Open Folder</button></div></article>
+        <article class="project-card reveal" data-folder="Okay Solar" data-category="website poster" data-tilt><img src="assets/projects/okay-solar-01.png" alt="Okay Solar Solutions project"><div><span class="folder-tag">Full Project</span><h3>Okay Solar Solutions</h3><p>Website • Posters • Solar Campaigns</p><button class="open-folder">Open Folder</button></div></article>
+        <article class="project-card reveal" data-folder="Urban Mug" data-category="website logo poster" data-tilt><img src="assets/projects/urban-mug-01.png" alt="Urban Mug Cafe project"><div><span class="folder-tag">Full Project</span><h3>Urban Mug Cafe</h3><p>Logo • Menu • Posters • Website</p><button class="open-folder">Open Folder</button></div></article>
+        <article class="project-card reveal" data-folder="Branding" data-category="logo" data-tilt><img src="assets/projects/branding-01.png" alt="Brand identity projects"><div><span class="folder-tag">Logo & Branding</span><h3>Branding Projects</h3><p>Logo Concepts • Style Guides • Mockups</p><button class="open-folder">Open Folder</button></div></article>
+        <article class="project-card reveal" data-folder="Packaging" data-category="packaging" data-tilt><img src="assets/projects/packaging-01.png" alt="Packaging designs"><div><span class="folder-tag">Packaging</span><h3>Packaging & Labels</h3><p>Labels • Tags • Product Mockups</p><button class="open-folder">Open Folder</button></div></article>
+        <article class="project-card reveal" data-folder="Website Demos" data-category="website" data-tilt><img src="assets/projects/website-demos-01.png" alt="Website demos"><div><span class="folder-tag">Website UI</span><h3>Website Demos</h3><p>Portfolio • E-commerce • Business Websites</p><button class="open-folder">Open Folder</button></div></article>
+      </div>
+    </section>
+
+    <section class="marquee-section" aria-label="Services marquee"><div class="marquee"><span>Logo Design ✦ Website Design ✦ Instagram Handling ✦ Packaging Design ✦ Product Posters ✦ Reels Editing ✦ Branding ✦ Marketing Creatives ✦ </span><span>Logo Design ✦ Website Design ✦ Instagram Handling ✦ Packaging Design ✦ Product Posters ✦ Reels Editing ✦ Branding ✦ Marketing Creatives ✦ </span></div></section>
+
+    <section class="about-contact" id="about">
+      <div class="about-card reveal" data-tilt>
+        <img src="assets/tarun-sticker.png" alt="Tarun cartoon avatar" />
+        <div><p class="eyebrow">About Me</p><h2>Designing brands that look premium and convert better.</h2><p>I’m Tarun Rana, a Creative Designer, Website Developer, and Social Media Manager helping brands build a strong online presence with creative designs and result-driven strategies.</p><ul class="check-list"><li>B.Tech CSD Graduate</li><li>UI/UX Designer</li><li>Web Developer</li><li>Social Media Expert</li><li>Freelancer</li></ul></div>
+      </div>
+      <div class="contact-card reveal" id="contact">
+        <div class="contact-info"><p class="eyebrow">Contact Info</p><h2>Let’s Discuss Your Project</h2><p><strong>Call / WhatsApp</strong><br><a href="tel:+918191948181">8191948181</a><br><a href="tel:+919728734856">9728734856</a></p><p><strong>Email</strong><br><a href="mailto:rana.tarun.hr@gmail.com">rana.tarun.hr@gmail.com</a></p><p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/tarun-b58776283/" target="_blank">linkedin.com/in/tarun-b58776283</a></p><p><strong>Instagram</strong><br><a href="https://www.instagram.com/tarun.rana_/" target="_blank">@tarun.rana_</a></p></div>
+        <form class="quote-form" id="quoteForm"><input name="name" placeholder="Your Name" required><input name="business" placeholder="Business Name"><input name="phone" placeholder="Phone Number" required><input name="email" type="email" placeholder="Email Address"><select name="service" required><option value="">Service Required</option><option>Branding Design</option><option>Social Media Design & Handling</option><option>Product & Packaging Design</option><option>Website & Online Setup</option><option>Marketing Support</option><option>Video & Reels</option></select><select name="budget"><option value="">Budget Range</option><option>Under ₹2,000</option><option>₹2,000 - ₹5,000</option><option>₹5,000 - ₹15,000</option><option>₹15,000+</option></select><textarea name="details" placeholder="Project Details" rows="5"></textarea><button class="btn primary full magnetic" type="submit">Get a Free Quote</button></form>
+      </div>
+    </section>
+
+    <section class="bottom-cta reveal"><div><h2>Have a project in mind?</h2><p>Let’s create something that helps your business stand out and grow.</p></div><div><a class="btn gold magnetic" href="#contact">Start Your Project</a><a class="btn whatsapp magnetic" href="https://wa.me/918191948181?text=Hi%20Tarun%2C%20I%20want%20to%20start%20a%20project." target="_blank">WhatsApp Me</a></div></section>
+  </main>
+  <footer><img src="assets/tr-logo-transparent.png" alt="TR logo"><span>Tarun Rana Design Studio</span><small>© 2026 Tarun Rana. All Rights Reserved.</small></footer>
+  <a class="floating-whatsapp" href="https://wa.me/918191948181?text=Hi%20Tarun%2C%20I%20want%20to%20discuss%20a%20project." target="_blank">WhatsApp</a>
+
+  <div class="ai-assistant" id="aiAssistant" aria-live="polite">
+    <button class="ai-toggle" id="aiToggle" aria-label="Open Tarun AI Assistant">
+      <span class="ai-pulse"></span>🤖 <b>Ask AI</b>
+    </button>
+    <div class="ai-panel" id="aiPanel">
+      <div class="ai-head">
+        <div><strong>Tarun's AI Assistant</strong><small>Project guide & quick quote</small></div>
+        <button id="aiClose" aria-label="Close chat">×</button>
+      </div>
+      <div class="ai-messages" id="aiMessages">
+        <div class="bot-msg">Hi 👋 I can help you choose the right service. What do you need?</div>
+      </div>
+      <div class="ai-options" id="aiOptions">
+        <button data-service="Logo Design">Logo Design</button>
+        <button data-service="Website Design">Website Design</button>
+        <button data-service="Instagram Handling">Instagram Handling</button>
+        <button data-service="Packaging Design">Packaging Design</button>
+        <button data-service="Video & Reels">Video & Reels</button>
+        <button data-service="Pricing & Packages">Pricing</button>
+      </div>
+      <div class="ai-lead">
+        <input id="aiName" placeholder="Your name">
+        <input id="aiPhone" placeholder="Phone number">
+        <button id="aiWhatsapp">Send on WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-label="Project gallery">
+      <button class="modal-close" data-close="true">×</button>
+      <div class="modal-head"><p class="eyebrow">Project Gallery</p><h2 id="modalTitle">Project</h2><p id="modalDesc">All related designs</p></div>
+      <div class="modal-gallery" id="modalGallery"></div>
+    </div>
+  </div>
+  <script>window.PROJECTS = {'Lady Luck': ['assets/projects/lady-luck-01.png', 'assets/projects/lady-luck-02.png', 'assets/projects/lady-luck-03.png', 'assets/projects/lady-luck-04.png', 'assets/projects/lady-luck-05.png', 'assets/projects/lady-luck-06.png', 'assets/projects/lady-luck-07.png', 'assets/projects/lady-luck-08.png', 'assets/projects/lady-luck-09.png', 'assets/projects/lady-luck-10.png', 'assets/projects/lady-luck-11.png', 'assets/projects/lady-luck-12.png', 'assets/projects/lady-luck-13.png', 'assets/projects/lady-luck-14.png', 'assets/projects/lady-luck-15.png', 'assets/projects/lady-luck-16.png', 'assets/projects/lady-luck-17.png', 'assets/projects/lady-luck-18.png', 'assets/projects/lady-luck-19.png'], 'Okay Solar': ['assets/projects/okay-solar-01.png', 'assets/projects/okay-solar-02.png', 'assets/projects/okay-solar-03.png', 'assets/projects/okay-solar-04.png', 'assets/projects/okay-solar-05.png', 'assets/projects/okay-solar-06.png', 'assets/projects/okay-solar-07.png', 'assets/projects/okay-solar-08.png', 'assets/projects/okay-solar-09.png', 'assets/projects/okay-solar-10.png'], 'Urban Mug': ['assets/projects/urban-mug-01.png', 'assets/projects/urban-mug-02.png', 'assets/projects/urban-mug-03.png', 'assets/projects/urban-mug-04.png', 'assets/projects/urban-mug-05.png', 'assets/projects/urban-mug-06.png', 'assets/projects/urban-mug-07.png', 'assets/projects/urban-mug-08.png', 'assets/projects/urban-mug-09.png', 'assets/projects/urban-mug-10.png'], 'Branding': ['assets/projects/branding-01.png', 'assets/projects/branding-02.png', 'assets/projects/branding-03.png', 'assets/projects/branding-04.png', 'assets/projects/branding-05.png', 'assets/projects/branding-06.png'], 'Packaging': ['assets/projects/packaging-01.png', 'assets/projects/packaging-02.png'], 'Website Demos': ['assets/projects/website-demos-01.png', 'assets/projects/website-demos-02.png', 'assets/projects/website-demos-03.png', 'assets/projects/website-demos-04.png', 'assets/projects/website-demos-05.png', 'assets/projects/website-demos-06.png']};</script>
+  <script src="script.js"></script>
+</body>
+</html>
